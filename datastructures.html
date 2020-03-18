@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A push Array Demo</title>
+    <link rel="stylesheet" href="C:\Users\WARREN CHRIS BULIME\Desktop\mollywork\week 3 java\datademo.css" />
+</head>
+</html>
+<body>
+    <h1>This is my Data Structure push method Demo! </h1>
+    <h2>Aray.push method</h2>
+    <p> Adds a new element to an array</p>
+
+<p>Click the button to add a new element to the array.</p>
+<input type=" text" id=" enterNewElement"> 
+<button onclick="myFunction()">ADD</button>
+<p id="name"></p>
+<script>
+// var Element= document.getElementById("enterNewElement");
+var selectedstudents = ["molly", "Jacinta", "Jane" ];// my Array defined
+document.getElementById("name").innerHTML = selectedstudents;// calls an item by id (name)
+function myFunction() {
+    var Name=Element.value;
+    selectedstudents.push("milly", "Bruce", "luke");
+  document.getElementById("name").innerHTML = selectedstudents;
+  console.log(selectedstudents)
+
+}//  defined my function for the push array method
+</script>
+
+</body>
+</html>
